@@ -25,7 +25,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@main
 
-      - name: Setup IOS NDK
+      - name: Setup ANDROID NDK
         uses: nttld/setup-ndk@main
         id: setup-ndk
         with:
