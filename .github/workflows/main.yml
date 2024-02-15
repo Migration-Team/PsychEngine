@@ -37,9 +37,6 @@ jobs:
           distribution: 'zulu'
           java-version: 11
 
-      - name: Setup ANDROID SDK
-        uses: android-actions/setup-android@main
-
       - name: Setup Haxe
         uses: krdlab/setup-haxe@master
         with:
