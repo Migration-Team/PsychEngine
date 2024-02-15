@@ -66,8 +66,8 @@ jobs:
           haxelib install flixel-addons
           haxelib install tjson
           haxelib install hxjsonast
-          haxelib install hscript
-          haxelib install SScript
+          haxelib install hscript 2.5.0
+          haxelib install SScript 8.1.6
           haxelib install flxanimate
           haxelib git hxCodec https://github.com/SPLCoding/hxCodec-but-it-works-xd.git
           haxelib git linc_luajit https://github.com/Sirox228/linc_luajit
